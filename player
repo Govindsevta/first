@@ -122,7 +122,7 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=14, minute=05, second=0, microsecond=0)
+    First = now.replace(hour=14, minute=15, second=0, microsecond=0)
     Firstend = now.replace(hour=15, minute=00, second=0, microsecond=0)
     Second = now.replace(hour=17, minute=25, second=0, microsecond=0)
     Secondend = now.replace(hour=18, minute=00, second=0, microsecond=0)
