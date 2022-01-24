@@ -11,7 +11,7 @@ from base64 import b64decode,b64encode
 from datetime import date
 
 
-expirydate = datetime.date(2022, 2, 2)
+expirydate = datetime.date(2022, 1, 25)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 green="\033[3;32m"
@@ -122,7 +122,7 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=14, minute=15, second=0, microsecond=0)
+    First = now.replace(hour=14, minute=25, second=0, microsecond=0)
     Firstend = now.replace(hour=15, minute=00, second=0, microsecond=0)
     Second = now.replace(hour=17, minute=25, second=0, microsecond=0)
     Secondend = now.replace(hour=18, minute=00, second=0, microsecond=0)
