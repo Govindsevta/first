@@ -164,6 +164,7 @@ if(expirydate>today):
             hero()
     else:
         banner='figlet RXCEV2.1|lolcat '
+        system(banner)
         print(f"{neon}Hi!! Thanks for buying the hack")
         print(f"{purple}----------Your play time-----------")
         print(" 02:30 PM- 03:00 PM")
