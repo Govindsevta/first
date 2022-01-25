@@ -143,14 +143,14 @@ if(expirydate>today):
     else:
         banner='figlet RXCEV2.1|lolcat'
         system(banner)
-        print(f"{red}""Hi!! Thanks for buying the hack")
+        print(f"{yellow}""Hi!! Thanks for buying 1 DAY hack")
         #print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
         print("----------bet limited if you loss dont blame addmin-----------")
         #print("11:00 AM- 11:30 AM")
-        print("02:30 PM- 03:00 PM")
-        print("05:30 PM- 06:00 PM")
-        print("08:30 PM- 09:00 PM")
+        print("25th,jan,02:30 PM- 03:00 PM")
+        print("25th,jan,05:30 PM- 06:00 PM")
+        print("25th,jan,08:30 PM- 09:00 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKING ")
