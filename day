@@ -72,7 +72,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCEV2.1|lolcat '
+    banner='figlet DIAMOND|lolcat '
     thisway=[0,2,4,6,8,10,12,14,16,18,20]
     thatway=[1,3,5,7,9,11,13,15,17,19]
     numbers=[]
@@ -163,7 +163,7 @@ if(expirydate>today):
             period=410
             hero()
     else:
-        banner='figlet RXCEV2.1|lolcat '
+        banner='figlet DIAMOND|lolcat '
         system(banner)
         print(f"{neon}Hi!! Thanks for buying the hack")
         print(f"{purple}----------Your play time-----------")
@@ -176,7 +176,7 @@ if(expirydate>today):
         print(f"{green}If you think it is an error contact")
         print(f"{neon} admin on telegram{red}@RXCE_HACKING ")
 else:
-    banner='figlet RXCEV2.1|lolcat '
+    banner='figlet DIAMOND|lolcat '
     system(banner)
     print(f"{neon}*--------*--------*-------*---------*---------*")
     print("Your hack has expired--- Please contact")
