@@ -11,7 +11,7 @@ from base64 import b64decode,b64encode
 from datetime import date
 
 
-expirydate = datetime.date(2022, 1, 27)
+expirydate = datetime.date(2022, 1, 28)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 green="\033[3;32m"
@@ -30,7 +30,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the bcone server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the Parity server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -82,7 +82,7 @@ def hero():
         clear()
         system(banner)
         print(f"{red}Contact me on telegram @RXCE_HACKING")
-        print(f"{yellow}Enter ",newperiod," Becone Price :")
+        print(f"{yellow}Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
         chalo()
@@ -122,23 +122,23 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=14, minute=25, second=0, microsecond=0)
-    Firstend = now.replace(hour=15, minute=00, second=0, microsecond=0)
-    Second = now.replace(hour=17, minute=25, second=0, microsecond=0)
-    Secondend = now.replace(hour=18, minute=00, second=0, microsecond=0)
-    Third = now.replace(hour=20, minute=25, second=0, microsecond=0)
-    Thirdend = now.replace(hour=21,  minute=00, second=0, microsecond=0)
+    First = now.replace(hour=13, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=16, minute=55, second=0, microsecond=0)
+    Secondend = now.replace(hour=17, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=19, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=20,  minute=35, second=0, microsecond=0)
     Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     if (now>First and now<Firstend):
-            period=290
+            period=280
             hero()
     elif(now>Second and now<Secondend):
-            period=350
+            period=340
             hero()
     elif(now>Third and now<Thirdend):
-            period=410
+            period=400
             hero()
     else:
         banner='figlet RXCEV2.1|lolcat'
@@ -148,9 +148,9 @@ if(expirydate>today):
         print("----------Your play time-----------")
         print("----------bet limited if you loss dont blame addmin-----------")
         #print("11:00 AM- 11:30 AM")
-        print("25th,jan,02:30 PM- 03:00 PM")
-        print("25th,jan,05:30 PM- 06:00 PM")
-        print("25th,jan,08:30 PM- 09:00 PM")
+        print("27th,jan,02:00 PM- 02:30 PM")
+        print("27th,jan,05:00 PM- 05:30 PM")
+        print("27th,jan,08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKING ")
@@ -174,7 +174,7 @@ else:
     banner='figlet RXCEV2.1|lolcat'
     rava=0
     now = datetime.datetime.now()
-    Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
+    Second = now.replace(hour=, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=14, minute=55, second=0, microsecond=0)
     Third = now.replace(hour=15, minute=30, second=0, microsecond=0)
     Thirdend = now.replace(hour=18, minute=34, second=0, microsecond=0)
@@ -182,11 +182,11 @@ else:
     Finalend = now.replace(hour=22, minute=35, second=0, microsecond=0)
 
     if(now>Second and now<Secondend):
-            rava=290
+            rava=280
     elif(now>Third and now<Thirdend):
-            rava=350
+            rava=340
     elif(now>Final and now<Finalend):
-            rava=410
+            rava=400
     system(banner)
     print(f"{neon}*--------*--------*-------*---------*---------*")
     print("Your hack has expired--- Please contact")
