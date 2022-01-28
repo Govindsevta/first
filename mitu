@@ -11,7 +11,7 @@ from base64 import b64decode,b64encode
 from datetime import date
 
 
-expirydate = datetime.date(2022, 2, 2)
+expirydate = datetime.date(2022, 1, 29)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 green="\033[3;32m"
@@ -101,9 +101,9 @@ def hero():
         else:
             sum=getSum(current)
             if(sum%2==0):
-                print(newperiod+1,"   :💥💥💥 🟢GREEN🟢 💥💥💥")
-            else:
                 print(newperiod+1,"   :💥💥💥  🔴RED🔴 💥💥💥")
+            else:
+                print(newperiod+1,"   :💥💥💥 🟢GREEN🟢 💥💥💥")
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
@@ -122,7 +122,7 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=11, minute=25, second=0, microsecond=0)
+    First = now.replace(hour=14, minute=25, second=0, microsecond=0)
     Firstend = now.replace(hour=15, minute=00, second=0, microsecond=0)
     Second = now.replace(hour=17, minute=25, second=0, microsecond=0)
     Secondend = now.replace(hour=18, minute=00, second=0, microsecond=0)
@@ -132,7 +132,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     if (now>First and now<Firstend):
-            period=240
+            period=290
             hero()
     elif(now>Second and now<Secondend):
             period=350
@@ -143,13 +143,13 @@ if(expirydate>today):
     else:
         banner='figlet RXCEV2.1|lolcat'
         system(banner)
-        #print(f"{red}""Hi!! Thanks for buying the hack")
-        print("Hi! thanks for trying our DEMO")
+        print(f"{red}""Hi!! Thanks for buying the hack")
+        #print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
-        print("11:00 AM- 11:30 AM")
-        #print("02:30 PM- 03:00 PM")
-        #print("05:30 PM- 06:00 PM")
-        #print("08:30 PM- 09:00 PM")
+        #print("11:00 AM- 11:30 AM")
+        print("02:30 PM- 03:00 PM")
+        print("05:30 PM- 06:00 PM")
+        print("08:30 PM- 09:00 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKING ")
@@ -173,12 +173,12 @@ else:
     banner='figlet RXCEV2.1|lolcat'
     rava=0
     now = datetime.datetime.now()
-    Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
-    Secondend = now.replace(hour=14, minute=55, second=0, microsecond=0)
-    Third = now.replace(hour=15, minute=30, second=0, microsecond=0)
-    Thirdend = now.replace(hour=18, minute=34, second=0, microsecond=0)
-    Final = now.replace(hour=18, minute=35, second=0, microsecond=0)
-    Finalend = now.replace(hour=22, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=14, minute=25, second=0, microsecond=0)
+    Secondend = now.replace(hour=15, minute=00, second=0, microsecond=0)
+    Third = now.replace(hour=17, minute=25, second=0, microsecond=0)
+    Thirdend = now.replace(hour=18, minute=00, second=0, microsecond=0)
+    Final = now.replace(hour=20, minute=25, second=0, microsecond=0)
+    Finalend = now.replace(hour=21, minute=00, second=0, microsecond=0)
 
     if(now>Second and now<Secondend):
             rava=290
@@ -213,12 +213,12 @@ else:
             clear()
             print("You have bought hack for 1 day")
             print(f"{purple}---------------Your play time----------------")
-            print("19th Jan 2021, 02:30 PM- 03:00 PM")
-            print("19th Jan 2021, 05:30 PM- 06:00 PM")
-            print("19th Jan 2021, 08:30 PM- 09:00 PM")
+            print("28th Jan 2022, 02:30 PM- 03:00 PM")
+            print("28th Jan 2022, 05:30 PM- 06:00 PM")
+            print("28th Jan 2022, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print(f"If you think it is an {red}error {yellow}contact {green}me ")
-            print(f"{neon}On Telegram {red}@smsn_knt")
+            print(f"{neon}On Telegram {red}@RXCE_HACKING")
             print("wait.... starting....")
             time.sleep(20)
             period=rava
