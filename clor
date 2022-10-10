@@ -11,8 +11,8 @@ from base64 import b64decode,b64encode
 from datetime import date
 
 
-expirydate = datetime.date(2021, 2, 2)
-#expirydate = datetime.date(2021, 8, 30)
+expirydate = datetime.date(2022, 12, 30)
+#expirydate = datetime.date(2023, 8, 30)
 today=date.today()
 green="\033[3;32m"
 neon="\033[3;36m"
@@ -191,9 +191,9 @@ else:
     print("Your hack has expired--- Please contact")
     print(" on telegram ----@RXCE_HACKING for activating")
     print("     Plan Amount --    Total limit " )
-    print(" 1.  2000 INR -------  1 Day (30 Games")
-    print(" 2.  5000 INR -------  3 Days(90 Games")
-    print(" 2.  10000 INR ------- 7 Days(210 Games")
+    print(" 1.  200 INR -------  30 Day (30 Games")
+    print(" 2.  500 INR -------  60 Days(90 Games")
+    print(" 2.  1000 INR ------- 90 Days(210 Games")
     print("*---------*----------*-------------*----------*")
     print("If you need any discount contact me")
     print("Beware of fraudsters!!!")
